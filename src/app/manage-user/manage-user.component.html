@@ -1,0 +1,12 @@
+<table>
+  <tbody [ngClass] = "'manage-user'">
+    <tr *ngFor="let user of users">
+      <td>{{user.id}}</td>
+      <td>{{user.name}}</td>
+      <td>{{user.surname}}</td>
+      <td>{{user.email}}</td>
+      <button class="btn btn-update" (click)="updateUser(user.id)">Update</button>
+      <button class="btn btn-del" (click)="deleteUser(user.id)">Remove</button>
+    </tr>
+  </tbody>
+</table>

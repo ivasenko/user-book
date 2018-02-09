@@ -1,0 +1,15 @@
+@import 'styles/common';
+
+
+.menu {
+    display: inline-block;
+    border-radius: 4px;
+
+}
+.nav-link{
+    color: #607D8B;
+}
+.active-link {
+    background: darkred;
+    color: #fff;
+}

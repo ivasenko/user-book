@@ -1,0 +1,27 @@
+$main-font-color: #fff;
+
+.btn{
+  padding: 5px 10px;
+  color: $main-font-color;
+  cursor: pointer;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  &:hover{
+    border: 1px solid $main-font-color;
+  }
+}
+.btn-add{
+  background: darkgreen;
+}
+.btn-update{
+  background: darkorange;
+}
+.btn-del{
+  background: darkred;
+}
+.nav-link{
+  font-size: 20px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
